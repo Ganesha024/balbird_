@@ -1,0 +1,62 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stake1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b1b3a;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0b1b3a;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="stake2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f15a22;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f15a22;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="stake3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b1b3a;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0b1b3a;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="stake4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f15a22;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f15a22;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="stake5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b1b3a;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0b1b3a;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  <!-- Stakeholders -->
+  <g transform="translate(50,100)">
+    <circle cx="50" cy="50" r="35" fill="url(#stake1)" />
+    <text x="50" y="55" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="600">Mfg</text>
+  </g>
+  
+  <g transform="translate(150,100)">
+    <circle cx="50" cy="50" r="35" fill="url(#stake2)" />
+    <text x="50" y="55" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="600">OEM</text>
+  </g>
+  
+  <g transform="translate(250,100)">
+    <circle cx="50" cy="50" r="35" fill="url(#stake3)" />
+    <text x="50" y="55" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="600">Assoc</text>
+  </g>
+  
+  <g transform="translate(350,100)">
+    <circle cx="50" cy="50" r="35" fill="url(#stake4)" />
+    <text x="50" y="55" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="600">Workforce</text>
+  </g>
+  
+  <g transform="translate(450,100)">
+    <circle cx="50" cy="50" r="35" fill="url(#stake5)" />
+    <text x="50" y="55" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="600">Finance</text>
+  </g>
+  
+  <!-- Labels -->
+  <text x="50" y="140" text-anchor="middle" fill="#0b1b3a" font-family="sans-serif" font-size="10" font-weight="600">Manufacturers</text>
+  <text x="150" y="140" text-anchor="middle" fill="#f15a22" font-family="sans-serif" font-size="10" font-weight="600">OEM / Tier</text>
+  <text x="250" y="140" text-anchor="middle" fill="#0b1b3a" font-family="sans-serif" font-size="10" font-weight="600">Associations</text>
+  <text x="350" y="140" text-anchor="middle" fill="#f15a22" font-family="sans-serif" font-size="10" font-weight="600">Students</text>
+  <text x="450" y="140" text-anchor="middle" fill="#0b1b3a" font-family="sans-serif" font-size="10" font-weight="600">Financial</text>
+  
+  <!-- Connections -->
+  <line x1="85" y1="85" x2="115" y2="85" stroke="#0b1b3a" stroke-width="2" />
+  <line x1="185" y1="85" x2="215" y2="85" stroke="#f15a22" stroke-width="2" />
+  <line x1="285" y1="85" x2="315" y2="85" stroke="#0b1b3a" stroke-width="2" />
+  <line x1="385" y1="85" x2="415" y2="85" stroke="#f15a22" stroke-width="2" />
+</svg>

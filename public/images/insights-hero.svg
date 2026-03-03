@@ -1,0 +1,50 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f15a22;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#0b1b3a;stop-opacity:0.05" />
+    </linearGradient>
+    <radialGradient id="insightGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0b1b3a;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#f15a22;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#grad1)" />
+  <g opacity="0.8">
+    <!-- Articles/Insights -->
+    <rect x="100" y="80" width="180" height="120" rx="8" fill="url(#insightGrad)" />
+    <text x="120" y="110" fill="white" font-family="sans-serif" font-size="14" font-weight="600">Industry Trends</text>
+    <text x="120" y="130" fill="white" font-family="sans-serif" font-size="12">Aerospace Capacity</text>
+    <text x="120" y="150" fill="white" font-family="sans-serif" font-size="12">EV Manufacturing</text>
+    <text x="120" y="170" fill="white" font-family="sans-serif" font-size="12">Compliance Updates</text>
+    
+    <rect x="320" y="80" width="180" height="120" rx="8" fill="url(#insightGrad)" />
+    <text x="340" y="110" fill="white" font-family="sans-serif" font-size="14" font-weight="600">Market Analysis</text>
+    <text x="340" y="130" fill="white" font-family="sans-serif" font-size="12">Railway Standards</text>
+    <text x="340" y="150" fill="white" font-family="sans-serif" font-size="12">Marine Compliance</text>
+    <text x="340" y="170" fill="white" font-family="sans-serif" font-size="12">Heavy Equipment</text>
+    
+    <rect x="540" y="80" width="180" height="120" rx="8" fill="url(#insightGrad)" />
+    <text x="560" y="110" fill="white" font-family="sans-serif" font-size="14" font-weight="600">Program Updates</text>
+    <text x="560" y="130" fill="white" font-family="sans-serif" font-size="12">Workforce Dev</text>
+    <text x="560" y="150" fill="white" font-family="sans-serif" font-size="12">Capacity Programs</text>
+    <text x="560" y="170" fill="white" font-family="sans-serif" font-size="12">Strategic Initiatives</text>
+    
+    <!-- Filters Panel -->
+    <rect x="200" y="240" width="400" height="120" rx="8" fill="#f15a22" />
+    <text x="220" y="270" fill="white" font-family="sans-serif" font-size="16" font-weight="600">Filter by Sector & Topic</text>
+    <circle cx="240" cy="295" r="8" fill="#0b1b3a" />
+    <circle cx="280" cy="295" r="8" fill="#f15a22" />
+    <circle cx="320" cy="295" r="8" fill="#0b1b3a" />
+    <circle cx="360" cy="295" r="8" fill="#f15a22" />
+    <circle cx="400" cy="295" r="8" fill="#0b1b3a" />
+    <circle cx="440" cy="295" r="8" fill="#f15a22" />
+    <circle cx="480" cy="295" r="8" fill="#0b1b3a" />
+    <circle cx="520" cy="295" r="8" fill="#f15a22" />
+    <circle cx="560" cy="295" r="8" fill="#0b1b3a" />
+    
+    <!-- Connections -->
+    <line x1="280" y1="200" x2="300" y2="240" stroke="#0b1b3a" stroke-width="3" />
+    <line x1="500" y1="200" x2="500" y2="240" stroke="#f15a22" stroke-width="3" />
+  </g>
+</svg>

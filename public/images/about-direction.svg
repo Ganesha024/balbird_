@@ -1,0 +1,27 @@
+<svg width="700" height="350" viewBox="0 0 700 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="road" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0b1b3a;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#f15a22;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="700" height="350" fill="url(#road)" />
+  <g opacity="0.8">
+    <rect x="50" y="100" width="120" height="40" rx="20" fill="#0b1b3a" />
+    <rect x="200" y="100" width="120" height="40" rx="20" fill="#f15a22" />
+    <rect x="350" y="100" width="120" height="40" rx="20" fill="#0b1b3a" />
+    <rect x="500" y="100" width="120" height="40" rx="20" fill="#f15a22" />
+    
+    <rect x="50" y="160" width="120" height="40" rx="20" fill="#f15a22" />
+    <rect x="200" y="160" width="120" height="40" rx="20" fill="#0b1b3a" />
+    <rect x="350" y="160" width="120" height="40" rx="20" fill="#f15a22" />
+    <rect x="500" y="160" width="120" height="40" rx="20" fill="#0b1b3a" />
+    
+    <rect x="50" y="220" width="120" height="40" rx="20" fill="#0b1b3a" />
+    <rect x="200" y="220" width="120" height="40" rx="20" fill="#f15a22" />
+    <rect x="350" y="220" width="120" height="40" rx="20" fill="#0b1b3a" />
+    <rect x="500" y="220" width="120" height="40" rx="20" fill="#f15a22" />
+  </g>
+  <path d="M50 280 L650 280" stroke="#0b1b3a" stroke-width="2" />
+  <path d="M630 270 L650 280 L630 290" stroke="#f15a22" stroke-width="3" fill="none" />
+</svg>

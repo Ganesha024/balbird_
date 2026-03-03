@@ -1,0 +1,94 @@
+<svg width="700" height="400" viewBox="0 0 700 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stepBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa" />
+      <stop offset="100%" style="stop-color:#e9ecef" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Step 1: Capacity Mapping -->
+  <g transform="translate(50,100)">
+    <circle cx="50" cy="50" r="40" fill="url(#stepBg)" stroke="#1e3a8a" stroke-width="2" />
+    <rect x="35" y="35" width="30" height="30" fill="none" stroke="#1e3a8a" stroke-width="2" />
+    <line x1="35" y1="45" x2="65" y2="45" stroke="#1e3a8a" stroke-width="2" />
+    <line x1="35" y1="55" x2="55" y2="55" stroke="#1e3a8a" stroke-width="2" />
+    <text x="50" y="90" text-anchor="middle" fill="#1e3a8a" font-family="sans-serif" font-size="12" font-weight="600">Capacity Mapping</text>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M140 150 L180 150" stroke="#f15a22" stroke-width="3" marker-end="url(#arrow)" />
+  
+  <!-- Step 2: Capability Validation -->
+  <g transform="translate(200,100)">
+    <circle cx="50" cy="50" r="40" fill="url(#stepBg)" stroke="#f15a22" stroke-width="2" />
+    <!-- Gear Icon -->
+    <circle cx="50" cy="50" r="25" fill="none" stroke="#f15a22" stroke-width="3" />
+    <circle cx="50" cy="50" r="15" fill="none" stroke="#f15a22" stroke-width="2" />
+    <rect x="47" y="25" width="6" height="10" fill="#f15a22" />
+    <rect x="47" y="65" width="6" height="10" fill="#f15a22" />
+    <rect x="25" y="47" width="10" height="6" fill="#f15a22" />
+    <rect x="65" y="47" width="10" height="6" fill="#f15a22" />
+    <text x="50" y="110" text-anchor="middle" fill="#f15a22" font-family="sans-serif" font-size="10" font-weight="600">Capability</text>
+    <text x="50" y="125" text-anchor="middle" fill="#f15a22" font-family="sans-serif" font-size="10" font-weight="600">Validation</text>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M290 150 L330 150" stroke="#1e3a8a" stroke-width="3" marker-end="url(#arrow)" />
+  
+  <!-- Step 3: Workforce Integration -->
+  <g transform="translate(350,100)">
+    <circle cx="50" cy="50" r="40" fill="url(#stepBg)" stroke="#1e3a8a" stroke-width="2" />
+    <!-- People Icon -->
+    <circle cx="50" cy="35" r="8" fill="#1e3a8a" />
+    <rect x="42" y="43" width="16" height="12" fill="#1e3a8a" rx="2" />
+    <text x="50" y="110" text-anchor="middle" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="600">Workforce</text>
+    <text x="50" y="125" text-anchor="middle" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="600">Integration</text>
+  </g>
+  
+  <!-- Step 4: Documentation & Traceability -->
+  <g transform="translate(50,200)">
+    <circle cx="50" cy="50" r="40" fill="url(#stepBg)" stroke="#f15a22" stroke-width="2" />
+    <!-- Document Icon -->
+    <rect x="35" y="30" width="30" height="40" fill="none" stroke="#f15a22" stroke-width="2" rx="2" />
+    <line x1="40" y1="40" x2="60" y2="40" stroke="#f15a22" stroke-width="2" />
+    <line x1="40" y1="50" x2="55" y2="50" stroke="#f15a22" stroke-width="2" />
+    <line x1="40" y1="60" x2="50" y2="60" stroke="#f15a22" stroke-width="2" />
+    <text x="50" y="90" text-anchor="middle" fill="#f15a22" font-family="sans-serif" font-size="10" font-weight="600">Documentation</text>
+    <text x="50" y="105" text-anchor="middle" fill="#f15a22" font-family="sans-serif" font-size="10" font-weight="600">& Traceability</text>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M140 250 L180 250" stroke="#1e3a8a" stroke-width="3" marker-end="url(#arrow)" />
+  
+  <!-- Step 5: Trade & Program Alignment -->
+  <g transform="translate(200,200)">
+    <circle cx="50" cy="50" r="40" fill="url(#stepBg)" stroke="#1e3a8a" stroke-width="2" />
+    <!-- Handshake Icon -->
+    <circle cx="40" cy="40" r="5" fill="#1e3a8a" />
+    <rect x="35" y="45" width="10" height="15" fill="#1e3a8a" rx="2" />
+    <circle cx="60" cy="40" r="5" fill="#1e3a8a" />
+    <rect x="55" y="45" width="10" height="15" fill="#1e3a8a" rx="2" />
+    <text x="50" y="110" text-anchor="middle" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="600">Trade &</text>
+    <text x="50" y="125" text-anchor="middle" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="600">Programs</text>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M290 250 L330 250" stroke="#f15a22" stroke-width="3" marker-end="url(#arrow)" />
+  
+  <!-- Step 6: Strategic Expansion -->
+  <g transform="translate(350,200)">
+    <circle cx="50" cy="50" r="40" fill="url(#stepBg)" stroke="#f15a22" stroke-width="2" />
+    <!-- Growth Icon -->
+    <path d="M35 65 L50 35 L65 65" fill="none" stroke="#f15a22" stroke-width="3" />
+    <line x1="50" y1="50" x2="50" y2="75" stroke="#f15a22" stroke-width="3" />
+    <line x1="45" y1="70" x2="55" y2="70" stroke="#f15a22" stroke-width="3" />
+    <text x="50" y="110" text-anchor="middle" fill="#f15a22" font-family="sans-serif" font-size="10" font-weight="600">Strategic</text>
+    <text x="50" y="125" text-anchor="middle" fill="#f15a22" font-family="sans-serif" font-size="10" font-weight="600">Expansion</text>
+  </g>
+  
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f15a22" />
+    </marker>
+  </defs>
+</svg>

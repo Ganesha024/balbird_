@@ -1,0 +1,44 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f15a22;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#0b1b3a;stop-opacity:0.05" />
+    </linearGradient>
+    <radialGradient id="discussGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0b1b3a;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#f15a22;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#grad1)" />
+  <g opacity="0.8">
+    <!-- Discussion Table -->
+    <rect x="200" y="120" width="400" height="160" rx="8" fill="url(#discussGrad)" />
+    <text x="220" y="150" fill="white" font-family="sans-serif" font-size="18" font-weight="600">Strategic Discussion</text>
+    
+    <!-- Participants -->
+    <circle cx="150" cy="200" r="30" fill="#0b1b3a" />
+    <circle cx="650" cy="200" r="30" fill="#f15a22" />
+    <text x="150" y="205" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="600">You</text>
+    <text x="650" y="205" text-anchor="middle" fill="white" font-family="sans-serif" font-size="12" font-weight="600">Balbird</text>
+    
+    <!-- Connection -->
+    <line x1="180" y1="200" x2="200" y2="200" stroke="#0b1b3a" stroke-width="4" marker-end="url(#arrow)" />
+    <line x1="600" y1="200" x2="620" y2="200" stroke="#f15a22" stroke-width="4" marker-end="url(#arrow)" />
+    
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#0b1b3a" />
+      </marker>
+    </defs>
+    
+    <!-- Topics -->
+    <rect x="220" y="170" width="80" height="20" rx="10" fill="#f15a22" />
+    <rect x="320" y="170" width="80" height="20" rx="10" fill="#0b1b3a" />
+    <rect x="420" y="170" width="80" height="20" rx="10" fill="#f15a22" />
+    <rect x="520" y="170" width="60" height="20" rx="10" fill="#0b1b3a" />
+    <text x="260" y="182" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="600">Capacity</text>
+    <text x="360" y="182" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="600">Compliance</text>
+    <text x="460" y="182" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="600">Programs</text>
+    <text x="550" y="182" text-anchor="middle" fill="white" font-family="sans-serif" font-size="10" font-weight="600">Strategy</text>
+  </g>
+</svg>
