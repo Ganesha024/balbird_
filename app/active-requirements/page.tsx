@@ -40,6 +40,17 @@ const detailFields = {
   ],
 } as const;
 
+const tableData = [
+  { stakeholder: "Manufacturer", sector: "Automotive / EV", type: "Capacity Expansion", summary: "5-axis CNC machine addition for EV motor housing production", status: "Under Review", action: "View" },
+  { stakeholder: "OEM", sector: "Aerospace", type: "Supplier Alignment", summary: "Precision aluminum structural components with traceability", status: "Open", action: "View" },
+  { stakeholder: "Association", sector: "Railway", type: "Cluster Compliance Program", summary: "Prepare 15 fabrication units for safety audit readiness", status: "Planning Phase", action: "View" },
+  { stakeholder: "Workforce", sector: "Heavy Mobility", type: "Student Integration", summary: "10 quality inspection trainees for structured exposure program", status: "Active", action: "View" },
+  { stakeholder: "Financial Institution", sector: "Automotive", type: "Acquisition Evaluation", summary: "Operational review of mid-size forging unit", status: "Confidential Review", action: "View" },
+  { stakeholder: "Manufacturer", sector: "Marine", type: "Capability Enhancement", summary: "Marine-grade stainless steel fabrication certification", status: "In Progress", action: "View" },
+  { stakeholder: "OEM", sector: "Railway", type: "Component Sourcing", summary: "Brake system components with safety compliance", status: "Open", action: "View" },
+  { stakeholder: "Association", sector: "Automotive", type: "Cluster Development", summary: "IATF 16949 readiness program for 20 member units", status: "Planning Phase", action: "View" },
+];
+
 export default function ActiveRequirementsPage() {
   return (
     <div className="flex flex-col gap-14">
@@ -145,27 +156,16 @@ export default function ActiveRequirementsPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-b border-border/50">
-                        {tableFields.items.map((h) => (
-                          <td key={h} className="px-4 py-4 text-foreground/60">
-                            —
-                          </td>
-                        ))}
-                      </tr>
-                      <tr className="border-b border-border/50">
-                        {tableFields.items.map((h) => (
-                          <td key={h} className="px-4 py-4 text-foreground/60">
-                            —
-                          </td>
-                        ))}
-                      </tr>
-                      <tr>
-                        {tableFields.items.map((h) => (
-                          <td key={h} className="px-4 py-4 text-foreground/60">
-                            —
-                          </td>
-                        ))}
-                      </tr>
+                      {tableData.map((row, index) => (
+                        <tr key={index} className={index < tableData.length - 1 ? "border-b border-border/50" : ""}>
+                          <td className="px-4 py-4 text-foreground/60">{row.stakeholder}</td>
+                          <td className="px-4 py-4 text-foreground/60">{row.sector}</td>
+                          <td className="px-4 py-4 text-foreground/60">{row.type}</td>
+                          <td className="px-4 py-4 text-foreground/60">{row.summary}</td>
+                          <td className="px-4 py-4 text-foreground/60">{row.status}</td>
+                          <td className="px-4 py-4 text-foreground/60">{row.action}</td>
+                        </tr>
+                      ))}
                     </tbody>
                   </table>
                 </div>
